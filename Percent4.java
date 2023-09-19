@@ -1,7 +1,7 @@
 class Percent4
 {
     double om, tm,per;
-    void input(double o, double t)   // getdata() defination
+    void input(double o, double t)   // input() defination or Formal Arg.
     {
         om = o;
         tm = t;
@@ -13,7 +13,7 @@ class Percent4
     }
     public static void main(String[] args)
     {
-      double OM=433, TM=500; 
+      double OM=433, TM=500;  //variable initialization
       Percent3 p = new Percent3(); //Object creation or Instance Creation
       p.input(OM, TM);  // Method call or Massage Passing or Calling Method with Arg. or Function call
       p.cal();     // Method call or Massage Passing or Calling Method with Arg. or Function call
