@@ -1,3 +1,5 @@
+//Write a Java program to find the number of days in a month.
+
 public class Month 
 {
    int month=8;
