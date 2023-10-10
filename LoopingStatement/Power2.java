@@ -11,7 +11,7 @@ class Power2
    {
     result=result* base;
    }
-   System.out.println("2 to the Power of 20 is equal to:-" +result);
+   System.out.println("2 to the Power of 20 is equal to:- " +result);
  }    
  public static void main(String[] args)
  {
