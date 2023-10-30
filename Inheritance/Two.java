@@ -5,14 +5,14 @@ called Cat that overrides the makeSound() method to bark.*/
  {
     void makeSound()
     {
-        System.out.println("The Cat makes a sound.");
+        System.out.println("The Cat makes a sound ?");
     }
  }
  class Cat extends Animal
  {
     void makeSound()
     {
-        System.out.println("meow");
+        System.out.println("Cat Sound meow");
     }
  
     public static void main(String[] args) 
