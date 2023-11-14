@@ -1,13 +1,13 @@
 /* Write a program to print area of two rectangle having side(4,8) and (5,8) by creating class named "Rectangle" 
 with method "Area" which returns the area and length & breadth passed as parameter to its constructor. */
 
-class Rectangle
+class Rectangle1
 {
   double length, breadth;
-  Rectangle(double l, double b)   //  paramerterized Constructor or Special Method or Class name Method
+  Rectangle1()   //  default Constructor or Special Method or Class name Method
   {
-    length = l ;
-    breadth = b ;
+    length = 4.5 ;
+    breadth = 5.5 ;
   }
   double Area()
   {
@@ -15,9 +15,7 @@ class Rectangle
   }
   public static void main(String[] args)
   {
-     Rectangle r1 = new Rectangle(4,5);
+     Rectangle1 r1 = new Rectangle1();
      System.out.println("\n Area of first rectangle is:" +r1.Area());
-     Rectangle r2 = new Rectangle(5, 8);
-     System.out.println("\n Area of second rectangle is:" +r2.Area());
   }
 }
