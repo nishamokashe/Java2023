@@ -1,4 +1,4 @@
-class Reactange1
+class Rectange1
 {
    public static void main(String[] args)
    {
