@@ -11,6 +11,7 @@ class Employee
         System.out.println("\n Emp ID:- "+(emp_id=111));
         System.out.println("\n Emp Name :- "+(name = "Nisha"));
         System.out.println("\n Emp Salary:- "+(Salary = 70000));
+        System.out.println("\n-----------------------------");
     }
     
     Employee(int e, String n, double s) // Parameterized Constructor Defintion
@@ -23,5 +24,7 @@ class Employee
     {
      Employee e1 = new Employee(); // Defualt Constructor call or instance or Object Creation
      Employee e2 = new Employee(111, "Nisha", 45000); // paramertized Constructor call or instance or Object Creation   
+     Employee e3 = new Employee(112, "Bharti", 50000); // paramertized Constructor call or instance or Object Creation   
+
     }
 }
