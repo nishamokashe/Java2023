@@ -38,6 +38,9 @@ class Employee extends Person
       lastName = "Kalalkar";
        System.out.println("First Name is: "+lastName);
     }
+}
+class Per
+{  
      public static void main(String[] args)
     {
         Employee e = new Employee();
